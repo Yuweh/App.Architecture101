@@ -16,7 +16,6 @@ Controller/Presenter/ViewModel — the glue or the mediator between the Mode
 
 ---------
 ## MVC
----------
 - most used framework in iOS
 - bigger apps could populate VC and may cause Massive VC, making it problematic to test
 
@@ -26,7 +25,6 @@ Controller
 
 ---------
 ## MVP
----------
 
 Model 
 View 
@@ -35,7 +33,6 @@ Presenter
 
 ---------
 ## MVVM
----------
 
 Model
 View
@@ -45,14 +42,15 @@ View Model
 
 ---------
 ## VIPER 
----------
+
 - based from Clean Architecture
 - used Singular Responsiblity makes it more equally distributed and testable
 
 View
-Inspector
-Presentor
-
+Interactor — contains business logic related to the data (Entities) or networking, like creating new instances of entities or fetching them from the server. For those purposes you’ll use some Services and Managers which are not considered as a part of VIPER module but rather an external dependency.
+Presenter — contains the UI related (but UIKit independent) business logic, invokes methods on the Interactor.
+Entities — your plain data objects, not the data access layer, because that is a responsibility of the Interactor.
+Router — responsible for the segues between the VIPER modules.
 
 ---------
 Referrences:
