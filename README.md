@@ -1,10 +1,10 @@
 # App.Architecture101
-Intro To App Architecture
----------
 [![IDE](https://img.shields.io/badge/Xcode-9-blue.svg)](https://developer.apple.com/xcode/)
 [![Language](https://img.shields.io/badge/swift-4-orange.svg)](https://swift.org)
 [![Platform](https://img.shields.io/badge/platform-iOS%2011-green.svg)](https://developer.apple.com/ios/)
 
+Intro To App Architecture
+---------
 
 
 STATUS:
@@ -60,16 +60,23 @@ View Model
 ## What VIPER means?
 VIPER is a backronym for View, Interactor, Presenter, Entity and Router. It’s basically an approach that implements the Single Responsibility Principle to create a cleaner and more modular structure for your iOS project. 
 
+The main parts of VIPER are:
 
-View - 
 
-Interactor — contains business logic related to the data (Entities) or networking, like creating new instances of entities or fetching them from the server. For those purposes you’ll use some Services and Managers which are not considered as a part of VIPER module but rather an external dependency.
+View: displays what it is told to by the Presenter and relays user input back to the Presenter.
 
-Presenter — contains the UI related (but UIKit independent) business logic, invokes methods on the Interactor.
 
-Entities — your plain data objects, not the data access layer, because that is a responsibility of the Interactor.
+Interactor: contains the business logic as specified by a use case.
 
-Router — responsible for the segues between the VIPER modules.
+
+Presenter: contains view logic for preparing content for display (as received from the Interactor) and for reacting to user 
+inputs (by requesting new data from the Interactor).
+
+
+Entity: contains basic model objects used by the Interactor.
+
+
+Routing: contains navigation logic for describing which screens are shown in which order.
 
 ---------
 Referrences:
