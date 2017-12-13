@@ -52,9 +52,9 @@ View Model
 ---------
 ## VIPER 
 
-- based from Clean Architecture
+## What VIPER means?
+VIPER is a backronym for View, Interactor, Presenter, Entity and Router. It’s basically an approach that implements the Single Responsibility Principle to create a cleaner and more modular structure for your iOS project. 
 
-- used Singular Responsiblity makes it more equally distributed and testable
 
 View - 
 
@@ -71,6 +71,8 @@ Referrences:
 
 Bohdan Orlov -
 https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52
+
+Pedro Henrique Peralta -  https://cheesecakelabs.com/blog/ios-project-architecture-using-viper/
 
 Entity
 Router
