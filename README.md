@@ -23,6 +23,10 @@ Controller/Presenter/ViewModel — the glue or the mediator between the Mode
 
 ---------
 ## MVC
+
+## What MVC means?
+Model View Controller Architecture Design Pattern is the most common architecture found in iOS apps and is recommended by Apple. An app which adopts the MVC pattern typically has 3 main layers
+
 - most used framework in iOS
 - bigger apps could populate VC and may cause Massive VC, making it problematic to test
 
@@ -44,6 +48,11 @@ Presenter
 
 ---------
 ## MVVM
+
+## What MVVM means?
+MVVM (model-view-viewModel) is an architecture pattern that is an alternative to MVC (model-view-controller). MVVM, sometimes referred to as presentation model, offers a way to organize code that doesn’t result in massive view controllers.
+
+
 
 Model
 
