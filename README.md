@@ -3,6 +3,15 @@
 [![forthebadge](http://forthebadge.com/images/badges/made-with-swift.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 ----
 
+## Objective:
+
+Why App Architecture Matters – Not convinced that your app needs architecture? Learn and we need this :D
+
+The Single Responsibility Principle – A good app architecture starts with the most basic of design patterns. Here's how it works.
+
+Understanding Architectures – Learn the different fundamental architectural design patterns. 
+
+
 Intro To App Architecture
 ---------
 for 
