@@ -64,7 +64,8 @@ Presenter
 ## What MVVM means?
 MVVM (model-view-viewModel) is an architecture pattern that is an alternative to MVC (model-view-controller). MVVM, sometimes referred to as presentation model, offers a way to organize code that doesn’t result in massive view controllers.
 
-
+This was motivated by "massive view controllers": MVVM considers UIViewController subclasses part of the View and keeps them slim by maintaining all state in the ViewModel.
+To learn more about it, check out Bob Spryn's fantastic introduction.
 
 Model
 
