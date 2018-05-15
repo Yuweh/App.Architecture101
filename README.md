@@ -75,6 +75,12 @@ View Model
 
 (View Controller still Present)
 
+Ref:
+
+https://medium.com/flawless-app-stories/how-to-use-a-model-view-viewmodel-architecture-for-ios-46963c67be1b
+
+https://www.toptal.com/ios/swift-tutorial-introduction-to-mvvm
+
 
 ---------
 ## VIPER 
