@@ -81,6 +81,7 @@ https://medium.com/flawless-app-stories/how-to-use-a-model-view-viewmodel-archit
 
 https://www.toptal.com/ios/swift-tutorial-introduction-to-mvvm
 
+https://medium.com/@azamsharp/mvvm-in-ios-from-net-perspective-580eb7f4f129
 
 ---------
 ## VIPER 
